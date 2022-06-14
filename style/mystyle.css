@@ -1,0 +1,498 @@
+.msgBox {
+  height: 120px;
+  width: 370px;
+  border: 2px soild whitesmoke;
+  color: blue;
+  box-shadow: 0px 0px 10px whitesmoke;
+  margin: auto;
+}
+
+.logo {
+  width: 180px;
+}
+
+.account-area {
+  display: flex;
+  float: right;
+  font-size: 15px;
+}
+
+.account-area a {
+  color: #a39b48;
+  font-weight: 600;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid rgba(4, 4, 255, 0.685);
+}
+
+.us-section {
+  background-color: #405e90;
+}
+
+.bread {
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.canada-section {
+  background-color: #405e90;
+}
+
+table {
+  width: 100%;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+.price-tag {
+  margin: 0 auto;
+  font-weight: 900;
+  display: none;
+}
+
+.upperDiv {
+  width: 100%;
+  height: 40px;
+  background-color: #afbed8;
+  border: 0.5px solid #ebecec;
+  display: flex;
+  align-items: center;
+}
+.logo h4 {
+  font-family: "Philosopher", sans-serif;
+  color: #fffffd;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  float: right;
+  flex: 1;
+}
+
+.breadcrumb-item a {
+  text-decoration: none !important;
+  font-size: 13px;
+  color: black;
+}
+
+.act {
+  color: blue !important;
+}
+
+.login-logo {
+  width: 150px;
+}
+.logo {
+  float: right;
+}
+.login-box {
+  height: 350px;
+  width: 321px;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  box-shadow: 0px 10px 5px #efefef;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.logo-img {
+  text-align: center;
+}
+.logo-text {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.my-signin2 {
+  width: 50%;
+}
+.google-button {
+  width: 250px;
+  margin: auto;
+  margin-top: 35px;
+}
+.upper-icon {
+  float: left;
+}
+
+.icons {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.icons li {
+  display: inline;
+}
+.logo {
+  float: right;
+}
+.logo-text {
+  margin-top: 15px;
+}
+.wrapper {
+  background-color: #afbed8;
+  height: 50px;
+}
+
+.calc-box {
+  width: 300px;
+
+  background-color: #eff2f7;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  box-shadow: 0xp 15px 16xp #6986b8;
+  position: sticky;
+  left: 1200px;
+  top: 300px;
+  z-index: 999;
+  padding: 3px;
+  opacity: 0.6;
+}
+
+.calc-box h4 {
+  margin-top: 30px;
+}
+
+.calc-box p {
+  color: green;
+  padding: 10px;
+}
+.post-card {
+  float: left;
+}
+
+/* THird page */
+.wrap-together {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.white-space {
+  height: 10px;
+}
+
+.list {
+  text-decoration: none;
+  color: black;
+}
+
+.content-hloder {
+  border: 1px solid red;
+  padding: 5px;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+  background-color: #fff9e9;
+}
+
+.box {
+  border: 0.5px solid #dbdbdb;
+  height: 250px;
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+}
+
+.box-container {
+  border: 1px solid #dbdbdb;
+  height: 350px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-top: 50px;
+}
+
+.btn-coinbase {
+  text-align: center;
+}
+
+.head-part {
+  background-color: rgba(245, 245, 245, 0.3);
+  width: 400px;
+  margin-left: -12px;
+  padding: 4px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+/* four page */
+.payment-section {
+  height: 100%;
+}
+
+.btc-coin {
+  border: 1px solid red;
+}
+
+.holder {
+  border: 1px solid #dbdbdb;
+  padding-left: 8px;
+  padding-right: 18px;
+  border-radius: 5px;
+}
+.alt-msg {
+  margin-top: 15px;
+  font-size: 12px;
+  word-wrap: break-word;
+  width: 200px;
+}
+.fund-text {
+  display: flex;
+  flex-direction: column;
+}
+.credit-area {
+  border: 1px solid #dbdbdb;
+  height: 120px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.payment-method {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.my-progress-bar {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #dbdbdb;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-right: 25px;
+}
+.progress-reader {
+  width: 50px;
+  height: 50px;
+  border: 4px solid green;
+  position: absolute;
+  top: 0;
+  border-radius: 100%;
+}
+.express-checkout-text {
+  font-size: 15px;
+}
+.post-card {
+  height: 25px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-style: italic;
+}
+.bar-code {
+  width: 45%;
+  cursor: pointer;
+  text-align: center;
+
+  margin: auto;
+}
+.display {
+  display: none;
+}
+
+.btc-address {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.address-holder {
+  border: 1px solid #dbdbdb;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.confirm-payment-form {
+  display: flex;
+}
+
+.btc-holder {
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.bitcoin-price {
+  display: flex;
+  justify-content: space-between;
+}
+.payment-button {
+  text-align: right;
+}
+.companylogo img {
+  width: 30%;
+  position: relative;
+  top: 300px;
+  left: 100px;
+}
+
+#showmodal {
+  top: 80px;
+}
+
+.signin-logo {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.customer-price {
+  z-index: 99;
+  position: sticky;
+  display: inline;
+  top: 25px;
+}
+
+.awesome-btn {
+  width: 72px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 15px;
+  height: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.awesome-white {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  display: flex;
+}
+
+.inner-circle {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  margin: auto;
+  margin-top: px;
+}
+
+.mobile-holder {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.btn-holder {
+  width: 230px;
+  margin: 0 auto;
+}
+
+.progress-holder {
+  width: 400px;
+  text-align: center;
+  border: 1px solid #dbdbdb;
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  border-radius: 5px;
+}
+#random_Message {
+  float: left;
+  font-size: 13px;
+}
+
+#showConfirmation {
+  cursor: pointer;
+  color: #415c91;
+}
+.upload-payment {
+  height: 70px;
+  display: none;
+}
+.confirmation-holder {
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.total-price {
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .price-tag {
+    margin-left: 70%;
+    font-weight: 900;
+  }
+  .calc-box {
+    width: 180px;
+    margin-right: 22px;
+    height: 120px;
+  }
+
+  .content-hloder {
+    text-align: left;
+  }
+  .companylogo img {
+    display: none;
+  }
+  .fund-text {
+    display: block;
+  }
+  .post-card {
+    float: none;
+    color: #415c91;
+    font-size: 20px;
+  }
+
+  .credit-area {
+    padding-left: 25px;
+  }
+
+  .bar-code {
+    display: none;
+  }
+
+  .total-price {
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+  }
+
+  .progress-holder {
+    margin-right: 220px;
+    margin-left: -60px;
+    margin-top: 90px;
+  }
+
+  .confirm-payment-form {
+    display: block;
+  }
+
+  .btc-address {
+    display: block;
+    padding-left: 0pxpx;
+    padding-top: 15px;
+    padding-right: 0px;
+  }
+
+  .btn-cancel-payment {
+    margin-bottom: 50px;
+  }
+}
